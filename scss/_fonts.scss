@@ -1,0 +1,18 @@
+/**
+ * ----------------------------------------------
+ * Font face
+ * 
+ */
+$raleway: "Raleway", sans-serif;
+// Raleway
+@include font-face($raleway, '../fonts/Raleway-Thin', 100);
+@include font-face($raleway, '../fonts/Raleway-Light', 300);
+@include font-face($raleway, '../fonts/Raleway-Regular', 400);
+@include font-face($raleway, '../fonts/Raleway-Medium', 500);
+@include font-face($raleway, '../fonts/Raleway-SemiBold', 500);
+@include font-face($raleway, '../fonts/Raleway-Bold', 700);
+@include font-face($raleway, '../fonts/Raleway-Black', 900);
+
+$questrial: "Questrial", sans-serif;
+// Questrial
+@include font-face($questrial, '../fonts/Questrial-Regular', 400);
